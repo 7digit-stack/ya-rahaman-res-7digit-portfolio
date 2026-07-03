@@ -1,0 +1,11 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="12" fill="#FF9D2D"/>
+<rect width="50" height="50" rx="12" fill="url(#yr_gradient)" fill-opacity="0.25"/>
+<text x="25" y="32" text-anchor="middle" font-family="Rubik, Arial, sans-serif" font-weight="700" font-size="19" fill="#FFFFFF" letter-spacing="-0.5">YR</text>
+<defs>
+<linearGradient id="yr_gradient" x1="0" y1="0" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

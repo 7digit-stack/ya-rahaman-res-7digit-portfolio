@@ -1,0 +1,1273 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ya Rahman Biriyani Restaurant | Authentic Hyderabadi Dum Biriyani</title>
+  <meta name="description"
+    content="Ya Rahman Biriyani Restaurant serves authentic, slow dum-cooked Hyderabadi biriyani — chicken, mutton, prawn, fish, egg and veg. Order online or book a table today.">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&family=Spicy+Rice&display=swap"
+    rel="stylesheet">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/biryani/hero-banner.jpg" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/biryani/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/yarb-logo.png" width="150" height="150"
+            alt="Ya Rahman Biriyani (YARB) - Since 2003" class="logo-img">
+        </a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="./index.html" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./about.html" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./menu.html" class="navbar-link" data-nav-link>Menu</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./blog.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="reservation-dropdown">
+              <button class="btn btn-hover">
+                Reservation
+              </button>
+              <div class="reservation-dropdown-menu">
+                <a href="https://www.swiggy.com/city/chennai/ya-rahman-briyani" target="_blank" rel="noopener">
+                  <ion-icon name="footsteps-outline"></ion-icon> Order on Swiggy
+                </a>
+                <a href="https://www.zomato.com/chennai/ya-rahman-briyani-tambaram" target="_blank" rel="noopener">
+                  <ion-icon name="restaurant-outline"></ion-icon> Order on Zomato
+                </a>
+              </div>
+            </div>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!--
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Search biriyani, kebabs, sides..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero-carousel" id="home" data-hero-carousel>
+
+          <div class="hero hero-slide active" data-hero-slide
+            style="background-image: url('./assets/images/biryani/hero-bg.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">Slow Cooked. Dum Sealed.</p>
+
+                <h2 class="h1 hero-title">The Most Loved <span class="highlight">Biriyani</span> in Town!</h2>
+
+                <p class="hero-text">Hyderabadi biriyani — dum-cooked daily with hand-picked spices &amp; fragrant basmati.</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/hero-banner.jpg" width="700" height="637" loading="lazy"
+                  alt="Ya Rahman signature Hyderabadi chicken biriyani plated with saffron rice, lemon and tomato"
+                  class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="hero hero-slide" data-hero-slide
+            style="background-image: url('./assets/images/biryani/menu-2-mutton-handi.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">Rich &amp; Aromatic</p>
+
+                <h2 class="h1 hero-title"><span class="highlight">Mutton Dum</span> Biriyani</h2>
+
+                <p class="hero-text">Tender mutton &amp; whole spices, slow-cooked over dum to perfection.</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/promo-2-mutton.jpg" width="700" height="637" loading="lazy"
+                  alt="Mutton dum biriyani with tender lamb pieces served on a plate" class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="hero hero-slide" data-hero-slide
+            style="background-image: url('./assets/images/biryani/banner-3-spices.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">Fresh From The Coast</p>
+
+                <h2 class="h1 hero-title"><span class="highlight">Prawn &amp; Fish</span> Biriyani</h2>
+
+                <p class="hero-text">Coastal-style seafood biriyani, marinated in bold spices &amp; dum-cooked to perfection.</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/menu-5-prawn.jpg" width="700" height="637" loading="lazy"
+                  alt="Prawn biriyani served in a bowl with fresh garnish" class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="hero hero-slide" data-hero-slide
+            style="background-image: url('./assets/images/biryani/banner-4-overhead.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">This Weekend Only</p>
+
+                <h2 class="h1 hero-title"><span class="highlight">Family Feast</span> Combo</h2>
+
+                <p class="hero-text">Biriyani, curry &amp; sides — a feast for 4 at a steal!</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/banner-1-feast.jpg" width="700" height="637" loading="lazy"
+                  alt="Biriyani family feast combo with rice, curry and samosas" class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="hero hero-slide" data-hero-slide
+            style="background-image: url('./assets/images/biryani/promo-6-porotta.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">Charcoal Fired</p>
+
+                <h2 class="h1 hero-title"><span class="highlight">Kerala Porotta</span> &amp; Sizzling Grill</h2>
+
+                <p class="hero-text">Flaky layered porotta paired with charcoal-grilled kebabs — a match made for sharing.</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/promo-7-grill.jpg" width="700" height="637" loading="lazy"
+                  alt="Sizzling mixed grill platter with assorted kebabs" class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="hero hero-slide" data-hero-slide
+            style="background-image: url('./assets/images/biryani/promo-8-shawarma.jpg')">
+            <div class="container">
+
+              <div class="hero-content">
+
+                <p class="hero-subtitle">Arabian Street Food</p>
+
+                <h2 class="h1 hero-title"><span class="highlight">Shawarma</span> &amp; Smoky Barbeque</h2>
+
+                <p class="hero-text">Juicy rotisserie shawarma wraps and flame-grilled skewers, Arabic-style street food done right.</p>
+
+                <a href="tel:+919790857802" class="btn">
+                  <span>Order Now</span>
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+
+              <figure class="hero-banner">
+                <img src="./assets/images/biryani/promo-9-barbeque.jpg" width="700" height="637" loading="lazy"
+                  alt="Flame-grilled barbeque skewers charred to perfection" class="w-100 hero-img">
+              </figure>
+
+            </div>
+          </div>
+
+        <button class="hero-carousel-btn prev" data-hero-prev aria-label="Previous slide">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+
+        <button class="hero-carousel-btn next" data-hero-next aria-label="Next slide">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+
+        <ul class="hero-carousel-dots" data-hero-dots>
+          <li><button class="active" data-hero-dot aria-label="Go to slide 1"></button></li>
+          <li><button data-hero-dot aria-label="Go to slide 2"></button></li>
+          <li><button data-hero-dot aria-label="Go to slide 3"></button></li>
+          <li><button data-hero-dot aria-label="Go to slide 4"></button></li>
+          <li><button data-hero-dot aria-label="Go to slide 5"></button></li>
+          <li><button data-hero-dot aria-label="Go to slide 6"></button></li>
+        </ul>
+
+      </section>
+
+
+
+      <!--
+        - #DISH TICKER
+      -->
+
+      <div class="ticker" aria-label="Popular dishes">
+        <div class="ticker-track">
+
+          <ul class="ticker-list">
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Biryani</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Lollipop</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Plain Biryani</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chilli Chicken (Mini)</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Egg Fried Rice</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Egg Noodles</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Manchurian (Mini)</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Uppu Curry</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Porotta</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Tandoori</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Grill Barbeque</li>
+          </ul>
+
+          <ul class="ticker-list" aria-hidden="true">
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Biryani</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Lollipop</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Plain Biryani</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chilli Chicken (Mini)</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Egg Fried Rice</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Egg Noodles</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Chicken Manchurian (Mini)</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Uppu Curry</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Porotta</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Tandoori</li>
+            <li><ion-icon name="flame" aria-hidden="true"></ion-icon>Grill Barbeque</li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+      <!--
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#F54F16">
+                      <path
+                        d="M43.033.002L42.563 0c-7.896 0-15.555 1.546-22.767 4.597-6.965 2.946-13.22 7.163-18.592 12.535l-.043.044c-1.548 1.551-1.546 4.075.004 5.625l2.256 2.257c.754.754 1.76 1.17 2.832 1.17h.001a3.98 3.98 0 0 0 2.834-1.171l.04-.04a1.7 1.7 0 0 1 1.21-.499h.021a1.73 1.73 0 0 1 1.238.537l4.596 4.807c.466.488 1.095.761 1.768.768h.028c.663 0 1.285-.258 1.756-.729.975-.975.993-2.58.04-3.577l-3.308-3.46c-.295-.309-.311-.797-.035-1.087a.76.76 0 0 1 .554-.239h.001a.76.76 0 0 1 .553.236l1.041 1.09c.95.994 2.49 1.079 3.507.195a2.5 2.5 0 0 0 .865-1.787 2.53 2.53 0 0 0-.696-1.858l-.755-.79a1.72 1.72 0 0 1-.454-1.511c.099-.549.444-1.003.944-1.245a46.86 46.86 0 0 1 20.561-4.69l.419.002c1.07.011 2.07-.399 2.827-1.149a3.96 3.96 0 0 0 1.179-2.828V3.984A4 4 0 0 0 43.033.002h0zm2.2 7.199a2.21 2.21 0 0 1-.659 1.581 2.18 2.18 0 0 1-1.575.641l-.435-.002a48.6 48.6 0 0 0-21.325 4.865A3.44 3.44 0 0 0 19.33 16.8a3.46 3.46 0 0 0 .912 3.037l.756.79a.76.76 0 0 1-.052 1.106c-.303.263-.789.226-1.085-.083l-1.041-1.089a2.53 2.53 0 0 0-1.822-.779 2.5 2.5 0 0 0-1.827.784c-.929.976-.912 2.518.037 3.512l3.308 3.46a.82.82 0 0 1-.012 1.121.74.74 0 0 1-.523.215c-.197-.002-.381-.083-.519-.226l-4.596-4.808a3.47 3.47 0 0 0-2.487-1.08h-.042a3.44 3.44 0 0 0-2.449 1.011l-.014.014-.009.009-.022.022c-.423.423-.988.656-1.591.656s-1.168-.232-1.591-.655L2.404 21.56a2.23 2.23 0 0 1 0-3.145l.042-.042A56.54 56.54 0 0 1 20.48 6.214c6.994-2.958 14.423-4.458 22.083-4.458l.454.002h0a2.24 2.24 0 0 1 2.215 2.226v3.218zm-.908 6.202a.88.88 0 0 0-.878.878v43.292c0 .412-.314.574-.411.614s-.433.147-.724-.144L11.436 27.166a.88.88 0 0 0-1.242 0 .88.88 0 0 0 0 1.242l30.877 30.877c.469.469 1.073.715 1.696.715.314 0 .633-.063.942-.19a2.38 2.38 0 0 0 1.494-2.237V14.281a.88.88 0 0 0-.878-.878h0zm-6.657-1.125c-2.112 0-3.83 1.718-3.83 3.83s1.718 3.83 3.83 3.83 3.83-1.718 3.83-3.83-1.718-3.83-3.83-3.83zm0 5.903c-1.143 0-2.074-.93-2.074-2.074s.93-2.073 2.074-2.073 2.073.93 2.073 2.073-.93 2.074-2.073 2.074zM22.575 34.938a3.55 3.55 0 0 0 3.547 3.547 3.55 3.55 0 0 0 3.547-3.547 3.55 3.55 0 0 0-3.547-3.547 3.55 3.55 0 0 0-3.547 3.547h0zm3.547-1.791c.987 0 1.791.803 1.791 1.791s-.803 1.791-1.791 1.791-1.791-.803-1.791-1.791.804-1.791 1.791-1.791zm12.81-2.283a3.68 3.68 0 0 0-3.672 3.672 3.68 3.68 0 0 0 3.672 3.672 3.68 3.68 0 0 0 3.672-3.672 3.68 3.68 0 0 0-3.672-3.672zm0 5.588a1.92 1.92 0 0 1-1.916-1.915 1.92 1.92 0 0 1 1.916-1.916 1.92 1.92 0 0 1 1.915 1.916 1.92 1.92 0 0 1-1.915 1.915zm2.97 8.702a3.92 3.92 0 0 0-3.913-3.912h-.645a3.92 3.92 0 0 0-3.913 3.912 1.7 1.7 0 0 0 1.697 1.697h.23l-.037.687a1.57 1.57 0 0 0 .427 1.16c.294.31.709.488 1.136.488h1.562a1.57 1.57 0 0 0 1.136-.488c.294-.31.45-.733.428-1.16l-.037-.687h.23a1.7 1.7 0 0 0 1.697-1.697h0zm-2.515-.059a1.2 1.2 0 0 0-.87.374c-.225.238-.345.562-.327.889l.057 1.073h-1.16l.057-1.073a1.2 1.2 0 0 0-1.198-1.263h-.758a2.16 2.16 0 0 1 2.156-2.097h.645a2.16 2.16 0 0 1 2.155 2.097h-.758zm-9.689-26.32a4.46 4.46 0 0 0-4.454 4.455v.76a4.46 4.46 0 0 0 4.454 4.455c1.017 0 1.844-.827 1.844-1.843v-.437l.975.052a1.69 1.69 0 0 0 1.251-.46c.335-.318.526-.764.526-1.225v-1.841c0-.461-.192-.908-.526-1.225s-.792-.485-1.251-.46l-.975.052v-.437c0-1.017-.827-1.844-1.844-1.844zm2.84 3.986v1.697l-1.43-.076c-.344-.017-.682.107-.931.343s-.392.569-.392.912v.963c0 .049-.039.087-.087.087A2.7 2.7 0 0 1 27 23.99v-.761a2.7 2.7 0 0 1 2.698-2.698c.048 0 .087.039.087.087v.964c0 .343.143.676.392.912a1.26 1.26 0 0 0 .931.343l1.43-.076z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Hyderabadi Chicken Biriyani</h3>
+
+                <p class="card-text">
+                  Fragrant basmati rice layered with marinated chicken, slow dum-cooked in a sealed handi.
+                </p>
+
+                <img src="./assets/images/biryani/promo-1-chicken.jpg" width="300" height="300" loading="lazy"
+                  alt="Hyderabadi chicken biriyani close-up with spicy curry" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#F54F16">
+                      <path
+                        d="M14.837 40.062c0 3.106 2.528 5.634 5.634 5.634s5.634-2.528 5.634-5.634a5.64 5.64 0 0 0-5.634-5.634c-3.106 0-5.634 2.527-5.634 5.634zm5.634-3.876a3.88 3.88 0 0 1 3.876 3.876 3.88 3.88 0 0 1-3.876 3.876 3.88 3.88 0 0 1-3.876-3.876 3.88 3.88 0 0 1 3.876-3.876zm4.22-20.523l-.2-9.292a1.6 1.6 0 0 0 1.089-1.514V1.599A1.6 1.6 0 0 0 23.981 0H16.96a1.6 1.6 0 0 0-1.599 1.599v3.259a1.6 1.6 0 0 0 1.09 1.514l-.201 9.292a10.3 10.3 0 0 1-2.194 6.117c-1.659 2.107-2.573 4.744-2.573 7.426v27.741A3.06 3.06 0 0 0 14.538 60h11.866a3.06 3.06 0 0 0 3.053-3.053v-27.74a12.06 12.06 0 0 0-2.573-7.426 10.3 10.3 0 0 1-2.194-6.117zM17.119 1.758h6.703v2.941h-6.703V1.758zm5.695 8.398h-4.687l.08-3.7h4.527l.08 3.7zM27.7 56.947a1.3 1.3 0 0 1-1.296 1.295H14.538c-.715 0-1.295-.581-1.295-1.295v-7.978H27.7v7.978zm0-25.703h-8.55a.88.88 0 0 0-.879.878.88.88 0 0 0 .879.879h8.55v14.21H13.242v-14.21h1.819a.88.88 0 0 0 .878-.879.88.88 0 0 0-.878-.878h-1.819v-2.037a10.29 10.29 0 0 1 2.196-6.338c1.602-2.034 2.514-4.579 2.57-7.167l.082-3.787h4.762l.081 3.787a12.08 12.08 0 0 0 2.57 7.167 10.29 10.29 0 0 1 2.196 6.338v2.037z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Mutton Dum Biriyani</h3>
+
+                <p class="card-text">
+                  Tender mutton dum-cooked with saffron, whole spices and slow-caramelised onions.
+                </p>
+
+                <img src="./assets/images/biryani/promo-2-mutton.jpg" width="300" height="300" loading="lazy"
+                  alt="Mutton dum biriyani with tender lamb pieces on a plate" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#F54F16">
+                      <circle cx="30" cy="30" r="22" />
+                      <path
+                        d="M30 8c12.15 0 22 9.85 22 22s-9.85 22-22 22S8 42.15 8 30 17.85 8 30 8zm0 4C20.06 12 12 20.06 12 30s8.06 18 18 18 18-8.06 18-18-8.06-18-18-18z"
+                        fill="#fff" opacity=".35" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Egg Biriyani</h3>
+
+                <p class="card-text">
+                  Boiled eggs tossed through fragrant spiced basmati rice — simple, comforting, full of flavour.
+                </p>
+
+                <img src="./assets/images/biryani/promo-3-egg.jpg" width="300" height="300" loading="lazy"
+                  alt="Egg biriyani with boiled egg served on a plate" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)" fill="#F54F16">
+                      <path
+                        d="M30.057 32.375c-5.536 0-10.04 4.504-10.04 10.04s4.504 10.04 10.04 10.04 10.04-4.504 10.04-10.04-4.504-10.04-10.04-10.04h0zm0 18.322c-4.567 0-8.282-3.715-8.282-8.282s3.715-8.282 8.282-8.282 8.282 3.715 8.282 8.282-3.715 8.282-8.282 8.282z" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Veg Biriyani</h3>
+
+                <p class="card-text">
+                  Garden-fresh vegetables and paneer layered with fragrant rice and our secret spice blend.
+                </p>
+
+                <img src="./assets/images/biryani/promo-4-veg.jpg" width="300" height="300" loading="lazy"
+                  alt="Vegetable biriyani with peas, cashews and saffron rice in a pot" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none"
+                    xmlns:v="https://vecta.io/nano">
+                    <g clip-path="url(#A)">
+                      <path
+                        d="M57.492 40.5h-9.248l1.652-.602c3.539-1.415 5.333-3.077 5.333-4.942 0-2.867-2.322-3.83-4.371-4.679-.878-.364-1.785-.741-2.529-1.252a.88.88 0 0 0-1.222.226.88.88 0 0 0 .226 1.222c.895.616 1.89 1.029 2.851 1.427 2.099.87 3.287 1.441 3.287 3.055 0 1.029-1.541 2.236-4.228 3.31-3.219 1.287-6.956 1.984-8.485 2.234H37.88c1.972-1.538 3.369-3.644 4.263-6.432 1.088-3.393 2.64-5.885 5.033-8.08"
+                        fill="#F54F16" />
+                    </g>
+                    <defs>
+                      <clipPath id="A">
+                        <path fill="#fff" d="M0 0h60v60H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Prawns Biriyani</h3>
+
+                <p class="card-text">
+                  Juicy prawns marinated in coastal spices and dum-cooked with fragrant long-grain rice.
+                </p>
+
+                <img src="./assets/images/biryani/promo-5-prawn.jpg" width="300" height="300" loading="lazy"
+                  alt="Prawn biriyani served in a bowl with fresh garnish" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none">
+                    <ellipse cx="30" cy="20" rx="21" ry="6" fill="#F54F16" />
+                    <ellipse cx="30" cy="31" rx="21" ry="6" fill="#F54F16" opacity=".7" />
+                    <ellipse cx="30" cy="42" rx="21" ry="6" fill="#F54F16" opacity=".45" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Kerala Porotta</h3>
+
+                <p class="card-text">
+                  Flaky, hand-tossed porotta griddle-cooked to golden layers — the perfect companion to any curry.
+                </p>
+
+                <img src="./assets/images/biryani/promo-6-porotta.jpg" width="300" height="300" loading="lazy"
+                  alt="Kerala porotta served with curry and sides" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none">
+                    <path
+                      d="M30 8c8 10 12 16 12 24a12 12 0 1 1-24 0c0-4 2-7 4-9 .5 3 2 4 3 4-1-6 1-12 5-19z"
+                      fill="#F54F16" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Sizzling Mixed Grill</h3>
+
+                <p class="card-text">
+                  A charcoal-fired platter of marinated kebabs, seekh and tikka — smoky, juicy, unforgettable.
+                </p>
+
+                <img src="./assets/images/biryani/promo-7-grill.jpg" width="300" height="300" loading="lazy"
+                  alt="Mixed grill platter with assorted kebabs and fries" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none">
+                    <path d="M20 12h20l-6 40a4 4 0 0 1-8 0L20 12z" fill="#F54F16" />
+                    <rect x="17" y="7" width="26" height="7" rx="3.5" fill="#F54F16" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Arabian Shawarma</h3>
+
+                <p class="card-text">
+                  Slow-roasted rotisserie chicken wrapped in soft flatbread with garlic sauce and pickles.
+                </p>
+
+                <img src="./assets/images/biryani/promo-8-shawarma.jpg" width="300" height="300" loading="lazy"
+                  alt="Chicken shawarma wrap sliced in half" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none">
+                    <line x1="10" y1="50" x2="50" y2="10" stroke="#F54F16" stroke-width="4" stroke-linecap="round" />
+                    <circle cx="20" cy="40" r="7" fill="#F54F16" />
+                    <circle cx="30" cy="30" r="7" fill="#F54F16" />
+                    <circle cx="40" cy="20" r="7" fill="#F54F16" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Smoky Barbeque</h3>
+
+                <p class="card-text">
+                  Flame-grilled skewers basted in our house barbeque marinade and charred to perfection.
+                </p>
+
+                <img src="./assets/images/biryani/promo-9-barbeque.jpg" width="300" height="300" loading="lazy"
+                  alt="Flame-grilled chicken skewers on barbecue" class="w-100 card-banner">
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/biryani/about-banner.jpg" width="509" height="459" loading="lazy"
+              alt="Ya Rahman biriyani spread with sides served on a rustic wooden table" class="w-100 about-img">
+
+            <img src="./assets/images/sale-shape-red.png" width="216" height="226" alt="Get up to 50% off now"
+              class="abs-img scale-up-anim">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Ya Rahman Biriyani
+              <span class="span">Tradition in Every Grain</span>
+            </h2>
+
+            <p class="section-text">
+              Since our first handi went on the dum flame, Ya Rahman Biriyani has stayed true to one promise —
+              authentic Hyderabadi taste, slow-cooked the traditional way. Every biriyani is layered by hand,
+              sealed with dough, and cooked low and slow until rice, meat and spice become one.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">100% Halal & Fresh Ingredients</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Secret Family Spice Blend</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Traditional Dum-Style Slow Cooking</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Fastest Home Delivery in Town</span>
+              </li>
+
+            </ul>
+
+            <a href="tel:+919790857802" class="btn btn-hover">Order Now</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta"
+        style="background-image: url('./assets/images/biryani/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              Ya Rahman Biriyani Brings You Restaurant-Quality
+              <span class="span">Dum Biriyani!</span>
+            </h2>
+
+            <p class="section-text">
+              Hand-picked spices, slow-cooked meat and fragrant basmati rice — every handi is prepared fresh to
+              order, the way biriyani was always meant to be made.
+            </p>
+
+            <a href="tel:+919790857802" class="btn btn-hover">Order Now</a>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/biryani/cta-banner.jpg" width="700" height="637" loading="lazy"
+              alt="Overhead view of Ya Rahman biriyani platter garnished with fresh herbs" class="w-100 cta-img">
+
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="Get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #LOCATIONS
+      -->
+
+      <section class="section section-divider white locations" id="branches">
+        <div class="container">
+
+          <p class="section-subtitle">Find Us Across Chennai</p>
+
+          <h2 class="h2 section-title">
+            <span class="span">15 Branches</span> &amp; Growing
+          </h2>
+
+          <p class="section-text branch-intro">
+            From IT corridors to residential hubs, Ya Rahman Biriyani serves fresh dum-cooked goodness
+            across 15 locations in Chennai. Your nearest branch is just a call away.
+          </p>
+
+          <div class="ticker branch-ticker" aria-label="Our branches" data-branch-marquee></div>
+
+          <div class="branch-carousel" data-branch-carousel></div>
+
+          <a href="./branch.html" class="btn btn-hover">Explore All Branches</a>
+
+        </div>
+      </section>
+
+
+
+
+      <!--
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              Hot, Fresh Biriyani Delivered <span class="span">Right To Your Door</span> & On Time
+            </h2>
+
+            <p class="section-text">
+              From our dum handi straight to your table — Ya Rahman's delivery fleet keeps your biriyani piping hot
+              and perfectly sealed until it reaches you.
+            </p>
+
+            <a href="tel:+919790857802" class="btn btn-hover">Order Now</a>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Google &amp; Food Platform Reviews</p>
+
+          <h2 class="h2 section-title">
+            What Chennai <span class="span">Really Says</span>
+          </h2>
+
+          <p class="section-text">
+            Genuine words from real customers across Google, Justdial and delivery platforms.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">T</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Tharun</h3>
+
+                    <p class="testi-title">Google Review &middot; Medavakkam</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Fresh food." &mdash; loved the fresh quality of the biriyani and the meat served.
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">J</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Justdial Reviewer</h3>
+
+                    <p class="testi-title">Madipakkam &middot; 3.8&#9733; branch rating</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "The fried rice is consistently good" &mdash; a favourite that keeps regulars
+                  coming back across our branches.
+                </blockquote>
+
+                <p class="testi-source">via Justdial</p>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">D</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Delivery Customer</h3>
+
+                    <p class="testi-title">Chennai &middot; Online Order</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Reasonable prices and fast delivery" &mdash; hot biriyani at your door without
+                  the premium price tag.
+                </blockquote>
+
+                <p class="testi-source">via online food platforms</p>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">M</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Mohammed A.</h3>
+
+                    <p class="testi-title">Tambaram &middot; Bulk Order</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Ordered 25 boxes for our office Friday lunch. Called a day before, everything was
+                  packed and ready at 12:30 sharp. Mutton was soft, rice not oily. Will repeat."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">D</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Divya S.</h3>
+
+                    <p class="testi-title">Medavakkam &middot; Dine-in</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Came at 1pm on Sunday, biriyani was fresh from the handi. Chicken 65 is a must.
+                  Only issue is parking on weekends — go early."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar avatar-initial" aria-hidden="true">R</figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Riyaz K.</h3>
+
+                    <p class="testi-title">Karapakkam &middot; Late Night</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "After shift at 11pm this is the only decent place still serving on OMR. Grill
+                  chicken with porotta and mayo, done. Quantity is proper for the price."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/biryani/banner-1-feast.jpg" width="550" height="450" loading="lazy"
+                  alt="Biriyani family feast combo with rice, curry and samosas" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">Family Feast Combo!</p>
+
+                  <h3 class="banner-title">Biriyani Family Combo — Feeds 4!</h3>
+
+                  <p class="banner-text">Save big this week only</p>
+
+                  <a href="tel:+919790857802" class="btn">Order Now</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/biryani/banner-2-spices.jpg" width="550" height="465" loading="lazy"
+                  alt="Aromatic whole spices used in Ya Rahman biriyani" class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Secret Spice Blend</h3>
+
+                  <p class="banner-text">Ground fresh every morning</p>
+
+                  <a href="tel:+919790857802" class="btn">Order Now</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/biryani/banner-3-spices.jpg" width="550" height="465" loading="lazy"
+                  alt="Traditional biriyani surrounded by assorted whole spices" class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">100% Halal Meat</h3>
+
+                  <p class="banner-text">Sourced fresh every day</p>
+
+                  <a href="tel:+919790857802" class="btn">Order Now</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/biryani/banner-4-overhead.jpg" width="550" height="220" loading="lazy"
+                  alt="Overhead view of biriyani served with yogurt and lemon garnish" class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Weekend Biriyani Thali</h3>
+
+                  <p class="banner-text">Sale off 20% only this weekend</p>
+
+                  <a href="tel:+919790857802" class="btn">Order Now</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">From Our Blog</p>
+
+          <h2 class="h2 section-title">
+            Stories &amp; Secrets <span class="span">From the Kitchen</span>
+          </h2>
+
+          <p class="section-text">
+            A peek into our world of dum-cooked biriyani, spice secrets, and food stories.
+          </p>
+
+          <div class="blog-grid" data-blog-grid="3"></div>
+
+          <a href="./blog.html" class="btn btn-hover">View All Posts</a>
+
+        </div>
+      </section>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#top" class="logo footer-logo">
+            <img src="./assets/images/yarb-logo.png" width="150" height="150"
+              alt="Ya Rahman Biriyani (YARB) - Since 2003" class="logo-img">
+          </a>
+
+          <p class="footer-text">
+            Slow-cooked, dum-sealed, and served with love — Ya Rahman Biriyani has been the city's favourite
+            biriyani destination for authentic Hyderabadi flavour.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/yarahmanbriyani/" target="_blank" rel="noopener" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/reel/DVIx0J1AS1Q/" target="_blank" rel="noopener" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <a href="tel:+919790857802" class="footer-list-item">+91 97908 57802</a>
+          </li>
+
+          <li>
+            <a href="tel:+918056857802" class="footer-list-item">+91 80568 57802</a>
+          </li>
+
+          <li>
+            <a href="mailto:yarahmanbriyani@gmail.com" class="footer-list-item">yarahmanbriyani@gmail.com</a>
+          </li>
+
+          <li>
+            <address class="footer-list-item">1A, Jeyachandran Nagar, Mambakkam Main Road, Medavakkam, Chennai</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Monday-Friday: 11:00-23:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Saturday: 11:00-Midnight</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Sunday: 12:00-23:00</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Quick Links</p></li>
+          <li><a href="./index.html" class="footer-list-item">Home</a></li>
+          <li><a href="./about.html" class="footer-list-item">About Us</a></li>
+          <li><a href="./menu.html" class="footer-list-item">Menu</a></li>
+          <li><a href="./blog.html" class="footer-list-item">Blog</a></li>
+          <li><a href="./contact.html" class="footer-list-item">Contact Us</a></li>
+          <li><a href="https://www.swiggy.com/city/chennai/ya-rahman-briyani" target="_blank" rel="noopener" class="footer-list-item">Order on Swiggy</a></li>
+          <li><a href="https://www.zomato.com/chennai/ya-rahman-briyani-tambaram" target="_blank" rel="noopener" class="footer-list-item">Order on Zomato</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2026 Ya Rahman Biriyani Restaurant. All Rights Reserved. <span class="support-credit">Site by <a href="https://7digit.in/" target="_blank" rel="noopener" class="support-link">7Digit</a></span>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+
